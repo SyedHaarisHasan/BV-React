@@ -45,11 +45,11 @@ class FormData extends React.Component {
             <div className="loginRectangle">
                 <form onSubmit={this.onSubmit}>
                     <div className="form">
-                        <h1 style={{color: 'black'}}>Login to Continue <br></br> to User Diary</h1> 
+                        <h1 style={{color: 'black'}}>Login to Continue</h1> 
                     </div>   
                     <div className="form">               
                         <input 
-                            style={{height: '30px', width: '300px', margin: 30}}
+                            style={{height: '30px', width: '350px', marginTop: 50}}
                             type="text" 
                             className="form-control"
                             placeholder="Name"
@@ -59,17 +59,17 @@ class FormData extends React.Component {
                     </div>
                     <div className="form">
                         <input 
-                            style={{height: '30px', width: '300px'}}
+                            style={{height: '30px', width: '350px', marginTop: 30}}
                             type="text" 
                             className="form-control"
                             placeholder="E-mail Address"
                             value={this.state.email}
                             onChange={this.onChangeEmail}
-                        />
+                        />                       
                     </div>
                     <button 
                     type="submit" 
-                    style={{borderRadius: 10, height: '30px', width : '100px', margin: 50, backgroundColor: '#1d70f8', color: 'white'}}>Login</button>
+                    style={{borderRadius: 10, height: '30px', width : '100px', marginTop: 70, backgroundColor: '#1d70f8', color: 'white'}}>Login</button>
                 </form>
             </div>
         </div>

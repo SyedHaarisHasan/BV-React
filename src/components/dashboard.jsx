@@ -49,7 +49,8 @@ class Dashboard extends React.Component {
                         <p style={{fontSize: 64}}>{item.name[0]}</p>
                     </div>
                     <p className="profileName" style={{fontSize: 40}}>{item.name}</p>
-                    <p className="profileEmail" style={{fontSize: 25}}>{item.email}</p>
+                    <p className="profileEmail" style={{fontSize: 25, marginTop: -15}}>{item.email}</p>
+                    <hr style={{color: 'black', height: 4}}></hr>
                     <form onSubmit={this.onSubmit}>
                         <button 
                             type="submit" 
